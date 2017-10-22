@@ -16,8 +16,8 @@ if [info exists gen_mem_list] {
     puts -nonewline "Information: generating .lib, .vclef, and .v files for $num_mem $mem_str..."
     flush stdout
     # E5: won't work in IL
-    # ${PROCESS_ROOT} -> /nfs/catech/process/cmos14lpp/
-    # /nfs/catech/process/cmos14lpp/stdcell/gen_mem.pl
+    # ${PROCESS_ROOT} -> /nfs/xxxx
+    # /nfs/xxxxx
     set status [catch "exec ${PROCESS_ROOT}/stdcell/gen_mem.pl -ctl -lib -vclef -verilog -tmax -gds -cdl -ascii $gen_mem_list >gen_mem.${log_id}.log 2>gen_mem.${log_id}.errlog" result]
     #set status 0
 
