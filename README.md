@@ -1,5 +1,6 @@
 # Useful scripts (including SHELL, Perl, Python, TCL, BAS, etc.)
 
+These scripts original purpose is to make your life much easier. Enjoy!
 Some useful scripts are added here:
 1. To help process daily data.
 2. To do big data mining.
