@@ -1,2 +1,10 @@
-# VLSI
-Scripts used in VLSI design and verification
+# Useful scripts (including SHELL, Perl, Python, TCL, BAS, etc.)
+
+Some useful scripts are added here:
+1. To help process daily data.
+2. To do big data mining.
+3. To generate all kinds formats report.
+
+I include simple explanation for each script, if you need any help for more explantion, please let me know.
+Thank you! :-)
+
